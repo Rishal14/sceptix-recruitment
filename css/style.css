@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+
+
+}
+
+.nav-list{
+    width: 50%;
+    background-color: yellowgreen;
+
+}
+
+.nav-list li{
+
+
+}
+
+.nav-list li a{
+
+}
+
+
+.rightNav{
+    background-color: blueviolet;
+    width: 50%;
+    text-align: right;
+}
