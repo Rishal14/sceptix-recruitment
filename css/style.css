@@ -1,105 +1,89 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 
-.navbar{
+.nav{
+    
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding: 1rem 6.5rem;
+    background: #222;
+    z-index: 100000;
+}
+
+
+.nav h2{
+    color: gold;
+    font-size: 1.7rem;
+}
+#item{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    position: sticky;
-    top: 0;
-    cursor: pointer;
-    
-
-}
-
-    
-
-
-.nav-list{
-    width: 50%;
-    display: flex;
     align-items: center;
-
 }
-
-.nav-list li{
-    
+#item li{
     list-style: none;
-    padding: 26px 30px;
-
-
+    padding-right: 50px;
 }
-
-.nav-list li a{
-    
+#item li a{
     text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
     color: white;
-
 }
-.nav-list li a:hover{
-    color: grey;
+#item li a:hover{
+    color: #ff5733;
+    cursor: pointer;
 }
-
-
-.rightNav{
-    
-    width: 50%;
-    text-align: right;
-}
-
-#search{
-    padding: 5px;
-    font-size: 17px;
-    border: 2px solid grey;
-    border-radius: 9px;
-}
-.background{
-    background: rgba(0, 0, 0, 0.7) url('../img1.png');
-    background-size: cover;
-    background-blend-mode: darken;
-}
-.firstSection{
+.back{
+    background-image: url(../img1.png);
+    width: 100%;
     height: 100vh;
-
+    background-size: cover;
 }
-.box-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 50%;
-    margin: auto;
-    height: 80%;
-}
-.firstHalf{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
     
 }
+.back .overlay{
+    background: #171819;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
     
-.text-big{
-    font-size: 80px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    -webkit-text-stroke: 1px #fff;
-    color: transparent;
-    background-image: linear-gradient(#fff, #fff);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: -750px 0;
-    animation: backcolor 5s linear infinite;
 }
-@keyframes backcolor{
-    100%{
-        background-position: 0 0;
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mid p{
+    color: #7f8c8d;
+    font-size: 1.3rem;
+}
+.mid h2{
+    color: #fff;
+    font-size: 3rem;
+}
+.foss{
+    background: #f9f9f9;
+    padding: 8rem;
+}
+    
 
-    }
-}
+
+
+    
+
