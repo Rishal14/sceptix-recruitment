@@ -317,6 +317,18 @@ p {
 #foss .Foss-bottom Foss-item icon{
     font-size: small;
 }
+.foss .Foss-bottom h2{
+	padding: 50px;
+}
+.foss .Foss-bottom p{
+	font-size: 20px;
+	padding: 10px;
+}
+.foss .Foss-bottom .thumbnail img{
+	width: 50%;
+	padding: 100px;
+
+}
 
 
 @keyframes hamburger_puls {
