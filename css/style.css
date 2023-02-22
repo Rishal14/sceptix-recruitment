@@ -297,7 +297,8 @@ p {
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#foss .section-title{
+
+.foss .section-title{
     font-size: 4rem;
     font-weight: 300;
     color: black;
@@ -306,17 +307,52 @@ p {
     letter-spacing: 0.2 rem;
     text-align: center;
 }
-#foss .section-title span{
+.foss .section-title span{
     color: crimson;
 }
-#foss .Foss-top {
+.foss .Foss-top {
 	max-width: 500px;
 	margin: 0 auto;
 }
-
-#foss .Foss-bottom Foss-item icon{
-    font-size: small;
+.foss .Foss-bottom h2{
+	padding: 50px;
 }
+.foss .Foss-bottom p{
+	font-size: 20px;
+	padding: 10px;
+}
+.foss .Foss-bottom .thumbnail img{
+	width: 50%;
+	padding: 100px;
+
+}
+.foss .Foss-bottom{
+	max-width: 950px;
+	overflow: hidden;
+	font-weight: 500px;
+}
+.foss .Foss-bottom h2{
+	position: relative;
+	font-weight: 600;
+	background: #fff;
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08);
+	color: #1c1c6b;
+	display: block;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding: 30px 0;
+	border-radius: 4px;
+}
+.foss .Foss-bottom h2:after {
+	content: "";
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 18px;
+	height: 18px;
+	
+}
+
 
 
 @keyframes hamburger_puls {
